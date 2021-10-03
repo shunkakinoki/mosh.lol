@@ -41,7 +41,6 @@ export const IndexPage = (): JSX.Element => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
-          placeholder="blur"
           src={SunshineImage}
           alt="Sunshine"
           layout="responsive"
@@ -52,7 +51,6 @@ export const IndexPage = (): JSX.Element => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
-          placeholder="blur"
           alt="PurpleHand"
           src={PurpleHandImage}
           layout="responsive"
@@ -74,7 +72,6 @@ export const IndexPage = (): JSX.Element => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
-          placeholder="blur"
           alt="RedWave"
           src={RedWaveImage}
           layout="responsive"

@@ -16,7 +16,7 @@ export const Seo: FC = () => {
           site_name: "mosh.lol",
           type: "website",
           url: "https://www.mosh.lol",
-          images: [{ url: "https://www.mosh.lol/ogp.png" }],
+          images: [{ url: "https://www.mosh.lol/ogp.jpg" }],
         }}
         twitter={{
           cardType: "summary_large_image",

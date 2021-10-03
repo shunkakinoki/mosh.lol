@@ -1,0 +1,7 @@
+name: mosh-lol
+root: ~/ghq/github.com/sentrei/mosh.lol
+attach: true
+windows:
+  - zsh: neofetch
+  - zsh: neofetch
+  - zsh: neofetch

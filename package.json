@@ -36,12 +36,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.9",
     "@sentrei/next": "^1.13.0",
     "@sentrei/postcss": "^1.4.3",
-    "@sentrei/tailwindcss": "^1.5.0"
+    "@sentrei/tailwindcss": "^1.5.0",
+    "moment": "^2.29.1",
+    "react-countdown": "^2.3.2",
+    "react-icons": "^4.3.1",
+    "three": "^0.133.0"
   },
   "devDependencies": {
-    "@sentrei/kit": "^1.0.0"
+    "@sentrei/kit": "^1.0.0",
+    "@shunkakinoki/eslint-config": "^1.1.17",
+    "@types/moment": "^2.13.0",
+    "@types/three": "^0.132.2"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"

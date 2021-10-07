@@ -83,70 +83,99 @@ export const ModalWindow: FC = () => {
                 </h1>
                 <div className="flex h-12 sm:h-24 md:h-36" />
                 <FaqSection title="Summary">
-                  <h3>1. 1 Mosh per day, 6 Different networks</h3>
-                  <h4>A. Daily auctions</h4>
+                  <h2 id="-summary-">
+                    <strong>Summary</strong>
+                  </h2>
                   <p>
-                    This will be trustly auctioned on the official{" "}
-                    <a href="https://app.mosh.lol">app.mosh.lol</a> website. All
-                    proceedes go the Mosh DAO treasury.
+                    MoshDAO will generate 1 NFT(=&quot;Mosh&quot;) per day, 3
+                    Different networks, on Ethereum($ETH), Arbitrum($ARB), and
+                    Polygon($MATIC).
                   </p>
-                  <h4>B. Each day, different network</h4>
+                  <h3 id="-a-daily-auctions-each-day-different-network-">
+                    A. Daily auctions - Each day, different network
+                  </h3>
+                  <p>
+                    This will be trustlessly auctioned on the official{" "}
+                    <a href="https://app.mosh.lol/">app.mosh.lol</a> website.
+                    All proceeds go to the Mosh DAO treasury. We change the
+                    network.
+                  </p>
                   <ul>
                     <li>Monday: $ETH</li>
                     <li>Tuesday $MATIC</li>
-                    <li>Wednesday: $FTM</li>
-                    <li>Thursday: $ARB</li>
-                    <li>Friday: $AVA</li>
-                    <li>Saturday: $ONE</li>
+                    <li>Wednesday: $ARB</li>
+                    <li>Thursday: $ETH</li>
+                    <li>Friday: $MATIC</li>
+                    <li>Saturday: $ARB</li>
                   </ul>
-                  <h4>C. DAO Mosh on Sunday</h4>
+                  <h3 id="b-mosh-token-launch-on-juicebox-">
+                    B. $MOSH Token Launch on Juicebox
+                  </h3>
                   <p>
-                    Every Sunday a Mosh will be randomly distributed to one of
-                    the holders of existing Mosh owners, or $MOSH holders. See
-                    code below.
+                    MoshDAO&#39;s governance token, $MOSH Token will be launched
+                    on Juicebox. $MOSH will be used to provide liquidity to the
+                    Mosh DAO, but also used as a participating right to the Mosh
+                    ecosystem. (Proposal, Voting, Community-only meetups, etc.)
+                    $MOSH will incentivize the MoshDAO community more open and
+                    encourage our community to be more active.
                   </p>
-                  <h3>2. $MOSH Token Launch (2022/01/01)</h3>
-                  <p>
-                    We will issue an official $MOSH token on the 90th day of the
-                    product launch. This will be used to provide liquidity to
-                    the Mosh DAO, but also used as a participating right to the
-                    Mosh ecosystem. In order to favor existing Mosh owners, we
-                    will airdrop $MOSH token at the time of ICO.
-                  </p>
-                  <h3>3. Incentivized community creation.</h3>
-                  <p>
-                    Every Mosh is copyright-free to be utilized under public
-                    domain.
-                  </p>
+                  <h3 id="c-mosh-dao-governance">C. Mosh DAO governance</h3>
+                  <p>Mosh DAO consists of two forms of governance</p>
+                  <ol>
+                    <li>
+                      Mosh Treasury DAO
+                      <br />
+                      <br /> Only the Mosh NFT holders have the rights to govern
+                      the treasury.
+                    </li>
+                    <br />
+                    <li>
+                      Mosh Governance DAO <br /> <br /> $MOSH Token holders have
+                      a voting right to influence the direction for the project,
+                      including derivatives and other spinoffs.
+                    </li>
+                  </ol>
                 </FaqSection>
                 <FaqSection title="Main points">
                   <ul>
-                    <li>The mosh artwork is public domain</li>
                     <li>
-                      1 mosh trustlessly auctioned every 24 hours forever,
-                      spanning 6 different networks.
+                      The mosh artwork is not public domain, but spin-offs will
+                      be encouraged on the Mosh Governance DAO.
                     </li>
                     <li>
-                      100% of noun auction proceeds are trustlessly sent to Mosh
-                      DAO treasury
+                      1 mosh trustlessly auctioned every 24 hours forever,
+                      spanning 3 different networks. (UTC-00:00 to UTC-23:59)
+                    </li>
+                    <li>
+                      100% of mosh auction proceeds are trustlessly sent to Mosh
+                      DAO treasury.
                     </li>
                     <li>
                       Mosh treasury will be controlled by governance in the Mosh
-                      DAO
+                      DAO.
                     </li>
                     <li>
-                      &#39;Moshists&#39; receive rewards in the form of nouns
-                      (33% of supply for first 30 days)
+                      Founder of MoshDAO, &#39;Moshers&#39; receives rewards in
+                      the form of Mosh NFT. (14.28% of supply for the first 5
+                      years)
                     </li>
                   </ul>
                 </FaqSection>
                 <FaqSection title="Daily Mosh Auctions">
                   <p>
-                    We will generate one mosh, every day, forever on multi-chain
-                    All proceedes will directly go the Mosh DAO Treasury. Every
-                    7th Mosh will go directly to the Moshist founder&#39;s
-                    wallet. (for the first 3 years)
+                    This will be trustlessly auctioned on the official{" "}
+                    <a href="https://app.mosh.lol/">app.mosh.lol</a> website.
+                    All proceeds go to the Mosh DAO treasury. We change the
+                    network.
                   </p>
+                  <ul>
+                    <li>Monday: $ETH</li>
+                    <li>Tuesday $MATIC</li>
+                    <li>Wednesday: $ARB</li>
+                    <li>Thursday: $ETH</li>
+                    <li>Friday: $MATIC</li>
+                    <li>Saturday: $ARB</li>
+                  </ul>
                 </FaqSection>
                 <FaqSection title="Mosh DAO">
                   <p>
@@ -168,10 +197,10 @@ export const ModalWindow: FC = () => {
                     </a>
                     .
                   </p>
-                  <h4>Moshists Rewards</h4>
+                  <h4>Mosher Rewards</h4>
                   <p>
-                    &#39;Moshists&#39; are the group of 3 builders that
-                    initiated Moshists. Here are the Moshists:
+                    &#39;Mosher&#39; are the group of 3 builders that initiated
+                    Mosher. Here are the Mosher:
                   </p>
                   <ul>
                     <li>
@@ -205,14 +234,14 @@ export const ModalWindow: FC = () => {
                   <p>
                     Since 100% of the proceedes will go to the Mosh DAO
                     Treasury, every 3rd Mosh will be randomly airdropped to one
-                    of the Mosh DAO members (only the Moshists exists at the
-                    time of the launch)
+                    of the Mosh DAO members (only the Mosher exists at the time
+                    of the launch)
                   </p>
                 </FaqSection>
                 <FaqSection title="Source">
                   <h6>
                     <a
-                      href="https://github.com/sentrei/sentrei/apps/www-mosh-lol"
+                      href="https://github.com/sentrei/mosh.lol"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

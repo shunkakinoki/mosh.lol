@@ -38,7 +38,7 @@
   "dependencies": {
     "@react-three/fiber": "^7.0.9",
     "@sentrei/next": "^1.13.0",
-    "@sentrei/postcss": "^1.4.3",
+    "@sentrei/postcss": "^1.4.5",
     "@sentrei/tailwindcss": "^1.5.0",
     "moment": "^2.29.1",
     "react-countdown": "^2.3.2",

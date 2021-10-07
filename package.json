@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@sentrei/kit": "^1.0.0",
-    "@shunkakinoki/eslint-config": "^1.1.17",
+    "@shunkakinoki/eslint-config": "^1.1.23",
     "@types/moment": "^2.13.0",
     "@types/three": "^0.132.2"
   },

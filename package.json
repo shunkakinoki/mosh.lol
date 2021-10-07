@@ -36,7 +36,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@react-three/fiber": "^7.0.9",
+    "@react-three/fiber": "^7.0.10",
     "@sentrei/next": "^1.13.0",
     "@sentrei/postcss": "^1.4.3",
     "@sentrei/tailwindcss": "^1.5.0",

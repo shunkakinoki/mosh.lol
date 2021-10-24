@@ -42,7 +42,6 @@ export const CountdownBlock: FC<CountdownBlockProps> = ({
         >
           {label}
         </div>
-        <div className={styles.scanlines} />
       </div>
       {!isLast && (
         <div className="px-3 sm:px-4 mb-6 sm:mb-12 text-lg font-semibold" />

@@ -7,8 +7,6 @@ import { ButtonCTA } from "@/components/ButtonCTA";
 import { CountdownClock } from "@/components/CountdownClock";
 import { FooterLogo } from "@/components/FooterLogo";
 import { GlowLogo } from "@/components/GlowLogo";
-import { ModalWindow } from "@/components/ModalWindow";
-import { useModalWindow } from "@/hooks/useModalWindow";
 import BlueHandImage from "@/public/BlueHand.png";
 import LogoGif from "@/public/Logo.gif";
 import LogoImage from "@/public/Logo.png";
@@ -27,16 +25,8 @@ const VaporGrid = dynamic(async () => {
 });
 
 export const IndexPage = (): JSX.Element => {
-  const [isModalOpen] = useModalWindow();
-
   return (
-    <div
-      className={clsx(
-        "w-full min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400 transition-colors duration-1000",
-        isModalOpen &&
-          "bg-gradient-to-r from-green-300 via-blue-500 to-purple-600",
-      )}
-    >
+    <div className="w-full min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400 transition-colors duration-1000">
       <div className="absolute inset-x-0 top-0 w-32 md:w-64 h-32 md:h-64">
         <Image
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
@@ -86,7 +76,6 @@ export const IndexPage = (): JSX.Element => {
         objectFit="cover"
         objectPosition="center"
       />
-      <ModalWindow />
       <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">

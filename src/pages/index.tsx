@@ -10,6 +10,7 @@ import { GlowLogo } from "@/components/GlowLogo";
 import { ModalWindow } from "@/components/ModalWindow";
 import { useModalWindow } from "@/hooks/useModalWindow";
 import BlueHandImage from "@/public/BlueHand.png";
+import LogoGif from "@/public/Logo.gif";
 import LogoImage from "@/public/Logo.png";
 import PurpleHandImage from "@/public/PurpleHand.png";
 import RedWaveImage from "@/public/RedWave.png";
@@ -80,7 +81,7 @@ export const IndexPage = (): JSX.Element => {
       <Image
         className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
         alt="Logo"
-        src={LogoImage}
+        src={LogoGif}
         layout="fill"
         objectFit="cover"
         objectPosition="center"

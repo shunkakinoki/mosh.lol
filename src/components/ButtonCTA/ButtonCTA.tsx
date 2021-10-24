@@ -1,5 +1,7 @@
 import type { FC } from "react";
 
+import { MIRROR_ARTICLE_URL } from "@/const/config";
+
 export const ButtonCTA: FC = () => {
   return (
     <div className="flex justify-center pt-6">
@@ -13,7 +15,7 @@ export const ButtonCTA: FC = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://mirror.xyz/shunkakinoki.eth/2iSHYSNDBGxPtaLsTY4n6heoHemtcYIIKUqKpInQG9Aj"
+          href={MIRROR_ARTICLE_URL}
           className="inline-flex justify-center items-center py-2 px-4 text-sm font-medium leading-6 text-center text-pink-400 bg-pink-100 hover:bg-pink-200 rounded-md border border-transparent hover:border-red-400 focus:ring-pink-500"
         >
           Learn More
